@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Books_HD_8314929977\ \(2\).jpg);
+    background-size: cover;
+ 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a{text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 17px;
+    color: white;
+    width: 110px;
+}
+
+  li a:hover {
+  background-color: rgb(43 255 0 / 68%);
+  background-color:rgb(43 255 0 / 68%);
+  }
+
+  .logo{
+    float: right;
+    font-size: 250%;
+    font-family:Sportotypo;
+    color: rgb(185 148 10);
+    margin-right: 60px;
+    margin-top: -50px;
+    padding: 7px;
+    border:1px solid rgb(185 148 10) ;
+}
+.box{text-align:center;
+    width:300px;
+    padding:40px;
+    top:50%;
+    left:50%;
+    margin-left: 36%;
+    margin-top: 6%;
+}
+.box h2{color:white;
+    font-weight:500;
+}
+
+.box input[type = "text"],.box input[type="password"]{
+
+    background-color:black;
+    border:3px solid #3498db;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition:0.25s;
+   
+}
+.box input[type="submit"]{
+    background-color:#3498db;
+    border:2px solid #3498db;
+    display:block;
+    margin:20px auto;
+    
+    padding: 1em;
+    width: 100px;
+    text-align:center;
+   
+    color:white;
+    border-radius:24px;
+    transition:0.25s;
+    }
+    .box input[type="submit"]:hover {
+
+       
+        width: 150px;
+        
+        
+        }
+ .box input[type = "text"]:focus ,.box input[type="password"]:focus {
+            width:280px;
+            border-color: rgb(43 255 0 / 68%);
+            }
+ footer{
+                width: 100%;
+                bottom: 0;
+                position: fixed;
+                
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            }
+            

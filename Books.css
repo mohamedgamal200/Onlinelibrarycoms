@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: cursive;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Books_HD_8314929977\ \(2\).jpg);
+    background-size: cover;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+  li {
+    float: left;
+  }
+
+  li a{text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 17px;
+    color: white;
+    width: 110px;
+}
+
+  li a:hover {
+  background-color: rgb(43 255 0 / 68%);
+  }
+
+  .logo{
+    float: right;
+    font-size: 250%;
+    font-family:Sportotypo;
+    color: rgb(185 148 10);
+    margin-right: 60px;
+    margin-top: -50px;
+    padding: 7px;
+    border:1px solid rgb(185 148 10) ;
+}
+
+.leftside{
+    width:280px;
+    float:left;
+    height:1172px;
+    }
+.box{text-align:center;
+width:200px;
+
+padding:16px 0;
+top:50%;
+left:50%;
+
+
+text-align:center;
+
+}
+h2{color:white;font-weight:500;}
+
+.content{
+  margin:0px;
+  width:650px;
+  float:right;
+  padding:50px 200px;
+}
+h3{color:white;}
+.category {position:absolute;
+    color:white;
+    width:400px;
+
+
+}
+.category a{
+      text-decoration:none;
+      color:#fff;
+      display:block;
+      padding:2px ;
+      text-align: left; 
+      width:145px;}
+
+.accord{
+  width:650px;
+  height:200px;
+  overflow:hidden;}
+.accord li{width:150px;
+padding:2px;
+display:block;
+float:left;
+transition: all 0.9s; 
+}
+.accord ul:hover li{width:50px;}
+.accord ul li:hover{width:350px;}
+
+
+footer { 
+    width: 100%;
+
+
+    display: flex;
+    bottom: 0;
+
+    text-decoration:none;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}

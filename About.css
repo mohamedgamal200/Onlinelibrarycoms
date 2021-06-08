@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+ 
+}
+
+body{
+    font-family: cursive;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Books_HD_8314929977\ \(2\).jpg);
+    background-size: cover;
+
+}
+ul{list-style-type: none;
+}
+.logo{
+    float: right;
+    font-size: 250%;
+    font-family:Sportotypo;
+    color: rgb(185 148 10);
+    margin-right: 60px;
+    margin-top: 25px;
+    padding: 7px;
+    border:1px solid rgb(185 148 10) ;
+}
+
+
+li a{text-decoration: none;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 17px;
+    color: white;
+    width: 100px;
+}
+
+.title{
+    color:beige;
+    margin-right: 225px;
+    margin-top: 220px;
+    padding: 40px;
+    float: right;
+    font-size: 40px;
+    border: 2px solid rgb(43 255 0 / 68%);
+    border-radius: 30px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+
+}
+li  :hover{
+    background-color: rgb(43 255 0 / 68%);
+
+
+}
+.text{
+    color:beige;
+    margin-right: 395px;
+    margin-top: -10px;
+    padding: 40px;
+    float: right;
+    font-size: 40px;
+
+
+}
+div p{
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
